@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* BODY */
+body {
+    background: linear-gradient(135deg, #ffd1e8, #ffe6f2);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Push footer down */
+main {
+    flex: 1;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, #ff5fa2, #ff85c1);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* WHITE CARD */
+.container {
+    max-width: 600px;      /* SMALLER BOX */
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(255, 95, 162, 0.3);
+    text-align: center;
+}
+
+/* HEADINGS */
+h2 {
+    color: #ff5fa2;
+    margin-bottom: 20px;
+}
+
+/* BUTTON GROUP */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;             /* SPACE BETWEEN BUTTONS */
+    margin-top: 30px;
+}
+
+/* BUTTON LINKS */
+.btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff5fa2, #ff85c1);
+    color: white;
+    padding: 14px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* FORMS */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 12px;
+    border-radius: 25px;
+    border: 2px solid #ffc1dd;
+    outline: none;
+}
+
+input:focus {
+    border-color: #ff5fa2;
+}
+
+/* BUTTON (FORM SUBMIT) */
+button {
+    background: linear-gradient(135deg, #ff5fa2, #ff85c1);
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ffd1e8;
+}
+
+th {
+    background: #ff85c1;
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #555;
+    margin-top: auto;
+}
