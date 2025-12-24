@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
 
 <header>
-    <h1>Student Portfolio Manager</h1>
+    <h1>Student Portfolio Manager!</h1>
     <nav>
         <a href="index.php">Home</a>
         <a href="add_student.php">Add Student</a>
